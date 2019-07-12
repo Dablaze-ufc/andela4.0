@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">A.L.C 4.0</string>
+    <string name="textview1">Welcome to ALC 4.0</string>
+    <string name="button1">My Profile</string>
+    <string name="button">About ALC</string>
+    <string name="todo2">TODO</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+    <string name="textview4">TextView</string>
+    <string name="textview5">TextView</string>
+    <string name="textview6">TextView</string>
+    <string name="textview7">TextView</string>
+    <string name="track_android">Track: Android</string>
+    <string name="chukwuwa_uchenna">Chukwuwa Uchenna</string>
+    <string name="country_nigeria">Country: Nigeria</string>
+    <string name="email_chukwuwauchenna_gmail_com">Email: Chukwuwauchenna@gmail.com</string>
+    <string name="phone_number_2348139115959">Phone Number: +2348139115959</string>
+    <string name="slack_username_chukwuwauchennafrancis">Slack Username @Chukwuwauchennafrancis</string>
+    <string name="todo">TODO</string>
+    <string name="welcome_to_alc">TextView</string>
+    <string name="welcome_to_a_l_c_4_0">Welcome to A.L.C. 4.0</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/alc_button"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="103dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="309dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#F0DC31"
+        android:text="@string/button"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0E0D0D"
+        android:textStyle="bold"
+        tools:text="ABOUT ALC" />
+
+    <Button
+        android:id="@+id/profile-button"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="255dp"
+        android:backgroundTint="#EFDB31"
+        android:text="@string/button1"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0E0D0D"
+        android:textStyle="bold"
+        tools:text="MY PROFILE" />
+
+    <TextView
+        android:id="@+id/alc_textView"
+        android:layout_width="269dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="382dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/welcome_to_a_l_c_4_0"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F8F8F8"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
