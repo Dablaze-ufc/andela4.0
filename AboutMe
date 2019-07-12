@@ -1,0 +1,31 @@
+package com.blaze.alc40;
+
+        import android.app.Activity;
+        import android.media.Image;
+        import android.support.v4.widget.ImageViewCompat;
+        import android.support.v7.app.AppCompatActivity;
+        import android.os.Bundle;
+        import android.widget.ImageView;
+        import android.widget.TextView;
+
+    import com.blaze.alc40.R;
+
+    public class Aboutme extends Activity {
+    ImageView imageMe;
+    TextView mytextview;
+    TextView mytextview2;
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_aboutme);
+        mytextview = (TextView) findViewById(R.id.textView2);
+        imageMe = (ImageView) findViewById(R.id.my_imageView);
+        mytextview2 = (TextView) findViewById(R.id.textView4);
+        mytextview2 = (TextView) findViewById(R.id.textView5);
+        mytextview = (TextView) findViewById(R.id.textView6);
+        mytextview = (TextView) findViewById(R.id.textView7);
+        mytextview = (TextView) findViewById(R.id.textView8);
+    }
+ }
