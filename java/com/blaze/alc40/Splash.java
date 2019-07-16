@@ -1,0 +1,34 @@
+package com.blaze.alc40;
+
+import android.content.Intent;
+import android.os.Handler;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+
+public class Splash extends AppCompatActivity {
+    ImageView andelaLogo;
+    Animation flash;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+        andelaLogo = (ImageView) findViewById(R.id.andelaimg);
+        flash = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.fade);
+        andelaLogo.startAnimation(flash);
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(Splash.this, MainActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        },5000);
+
+    }
+}
